@@ -1,0 +1,14 @@
+###
+curl http://localhost:3000/devices/Hoge/poweron
+###
+curl http://localhost:3000/devices/Hoge/poweroff
+###
+curl http://localhost:3000/devices/Hoge/status
+
+###
+curl http://localhost:3000/devices/Fuga/poweron
+###
+curl http://localhost:3000/devices/Fuga/poweroff
+###
+curl http://localhost:3000/devices/Fuga/status
+
