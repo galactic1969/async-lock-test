@@ -10,6 +10,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const devicesRouter = require('./routes/devices');
 const devices2Router = require('./routes/devices2');
+const lockDevicesRouter = require('./routes/lockdevices');
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/devices', devicesRouter);
 app.use('/devices2', devices2Router);
+app.use('/lockdevices', lockDevicesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
